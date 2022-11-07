@@ -1,0 +1,15 @@
+Alex has a movie colection and he needs to watch them all ASAP.
+The duration of the movies are given in an array: durations[n], n is the number of movies.
+Each movie is 1.01 to 3.00 units time.
+Alex can watch no more than 3.00 units time.
+Alex has to watch all movies within the least number of days.
+Alex  doesn't watch half movies.
+Please find the minimum number of days Alex needs to watch all the movies.
+
+Example:
+
+n=5
+
+durations[1.90, 1.04, 1.25, 2.5, 1.75]
+
+minimum days Alex needs: 3 (1.04+1.90, 1.25+1.75,2.5)
